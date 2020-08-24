@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+.post{
+  background-color: #61dafb;
+
+}
+.one{
+font-size: 20px;  
+margin: 5px 0px ;
+
+-khtml-user-select : none;
+  -webkit-user-select : none;
+  -moz-user-select : -moz-none;
+  -ms-user-select : none;
+  user-select : none;
+
+  border: 2px solid;
+  padding: 20px; 
+  width: 600px;
+  resize: horizontal;
+  overflow: auto;
+    outline-offset: 15px;
+}
+.name{
+
+}
+.username{
+
+}
+.email{
+
+}
+.city{
+
+}
