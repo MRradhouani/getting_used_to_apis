@@ -23,14 +23,14 @@ function UserList() {
     }, [])
     return (
         <div>
-            <h1>hello API</h1>
+            <h1>hello API Users </h1>
 
             <ul className="post">
                 {posts.map(post => (<li key={post.id} className="one">
-               <span className="name"><label> full name :</label> {post.name}</span> 
+               <span className="name">{post.name}</span> 
                   <span className="username"> {post.username}</span><br/> 
-                   <span className="email"><label> Email :</label>{post.email}</span><br/>
-                   <span className="city"><label> Adress :</label>{post.address.city}</span> 
+                   <span className="email">{post.email}</span><br/>
+                   <span className="city">{post.address.city}</span> 
                     
                     </li>
                 ))}
